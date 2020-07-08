@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+.dropdown-menu { width: 100%; } 
+
+.content {
+  min-height: calc(100vh - 71px);
+  padding: 15px;
+  background-color: var(--bgColor);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-lighblue { background-color: var(--bgColor); }
+
+/* Forms */
+.form-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--black);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.colored__blue { color: var(--blue); }
+
+.btn.btn-default.focus, 
+.btn.btn-default:focus { box-shadow: none; }
+
+select.custom-select {
+  border: 1px solid var(--borderColor);
+  background: var(--bgColor);
+  -webkit-appearance: listbox;
+  -moz-appearance: listbox;
+  appearance: listbox;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn.btn-blue-border {
+  padding: 5px 8px;
+  border: 1px solid var(--blue);
+  background: var(--white);
+  font-size: 12px;
+  line-height: 17px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn.btn-blue-border:hover {
+  background: var(--blue);
+  color: var(--white);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-tabs .nav-link:focus { outline: none; }
+
+/* Common tabs */
+.common-tabs.nav-tabs {
+  padding: 0 1rem;
+  border-radius: 5px;
+  border: 1px solid var(--borderColor);
+  margin-bottom: 1rem;
+  background: var(--white);
+}
+
+.common-tabs.nav-tabs .nav-item.show .nav-link, 
+.common-tabs.nav-tabs .nav-link.active,
+.common-tabs.nav-tabs .nav-link:hover {
+  border-bottom: 3px solid var(--blue);
+  color: var(--black);
+}
+
+.common-tabs.nav-tabs .nav-link {
+  padding: .5rem 0;
+  border: 0;
+  border-bottom: 3px solid var(--transparent);
+  margin-right: 2rem;
+  color: var(--darkGrey);
+}
+
+.body-hidden-overflow { overflow: hidden; }
+.body-hidden-overflow .modal { overflow: auto; }
+
+.form-input {
+  padding: 12px;
+  border: 1px solid var(--borderColor);
+  border-radius: 5px;
+}
+
+/* Buttons */
+.btn.btn-common {
+  padding: 12px;
+  background-image: linear-gradient(to right,#7650FF,#27C2FF);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;;
+  line-height: 25px;
+}
+
+.btn.btn-common:hover { color: #fff; }
+
+.btn.btn-action {
+  padding: 0;
+  color: var(--blue);
+}
+
+.btn.btn-action:hover {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+.btn.btn-primary {
+  background-color: var(--blue);
+  padding: 10px 20px;
+}
+
+button.btn:focus { box-shadow: none; }
+
+/* Input, Select */
+input.form-control,
+select.form-control {
+  border: 1px solid #CFE7EB;
+  background-color: #F2F7FA;
+  color: #51676D;
 }

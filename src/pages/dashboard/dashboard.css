@@ -1,0 +1,12 @@
+.top-count-stats {
+    margin: 15px 0;
+}
+
+/* Mobile Device */
+@media only screen and (max-width: 768px) {
+    .container.w-75,
+    .container.w-50 {
+      width: 100%!important;
+      padding: 0;
+    }
+  }

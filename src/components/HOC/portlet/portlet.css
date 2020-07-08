@@ -1,0 +1,27 @@
+.portlet-header {
+    padding: 10px 15px;
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.portlet-body { padding: 15px; }
+
+.portlet {
+    background-color: #fff;
+    border: 1px solid var(--borderColor);
+    color: var(--textColor);
+    margin-bottom: 15px;
+}
+
+.portlet-title {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    color: var(--black);
+}
+
+.portlet-subtitle {
+    margin-bottom: 5px;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--grey);
+}

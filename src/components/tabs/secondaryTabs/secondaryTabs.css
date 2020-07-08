@@ -1,0 +1,43 @@
+/* Secondary Tabs */
+.secondary-tabs.nav-tabs .nav-link {
+    background: var(--white);
+    border-radius: 5px;
+    border: 2px solid var(--transparent);
+    box-shadow: 0 0 2px var(--boxShadow);
+    padding: 10px 25px;
+    margin-right: 15px;
+    color: var(--darkGrey);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.secondary-tabs.nav-tabs .nav-link:last-of-type { margin-right: 0; }
+
+.secondary-tabs.nav-tabs { 
+    border: 0; 
+    margin-bottom: 1rem;
+}
+
+.secondary-tabs.nav-tabs .nav-item.show .nav-link, 
+.secondary-tabs.nav-tabs .nav-link.active,
+.secondary-tabs.nav-tabs .nav-link:hover,
+.secondary-tabs.nav-tabs .nav-link:focus {
+    border-color: var(--blue);
+    color: var(--black);
+    outline: none;
+}
+
+/* Ipad landscape */
+  @media only screen and (max-width: 1024px) {
+    .secondary-tabs.nav-tabs .nav-link { padding: 10px 7px; }
+  }
+
+  /* Mobile Device */
+  @media only screen and (max-width: 768px) {
+    .secondary-tabs.nav-tabs {
+        overflow-y: auto;
+        flex-wrap: unset;
+    }
+
+    .secondary-tabs.nav-tabs a.nav-link { padding: 10px; }
+  }

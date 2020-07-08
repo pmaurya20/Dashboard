@@ -1,0 +1,38 @@
+/* Avtart file uplaod */
+input[type="file"] {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+ }
+
+ .avatar {
+    width: 80px;
+    height: 80px;
+    border: 1px solid var(--borderColor);
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+ }
+
+ .avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+ }
+
+ .avatar-wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+ }
+
+ /* Success Alert Message */
+ .alert.alert-success {
+    width: 300px;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+ }

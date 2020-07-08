@@ -1,0 +1,62 @@
+/* Post */
+.post-grid_item {
+    background: var(--white);
+    border: 1px solid var(--borderColor);
+}
+
+.post-grid__header {
+    border-bottom: 1px solid var(--borderColor);
+    padding: 15px;
+}
+
+.post-grid__head {
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--grey);
+}
+
+.post-grid__title {
+    margin: 0;
+    color: var(--black);
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.post-grid__section { padding: 15px; }
+
+.post-grid__footer {
+    padding: 15px;
+    border-top: 1px solid var(--borderColor);
+}
+
+.post-grid__section p {
+    color: var(--black);
+    font-size: 13px;
+    line-height: 21px;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.post-grid__section p:last-of-type { margin-bottom: 0; }
+.post-grid__section:nth-of-type(2) { border-top: 1px solid var(--borderColor); }
+
+.post-grid .col {
+    padding-left: 0;
+    margin-bottom: 15px;
+}
+
+.post-grid .col:nth-of-type(3n) { padding-right: 0; }
+.post-grid .portlet-body { background-color: var(--lightGrey); }
+
+.post-grid__footer i {
+    font-size: 15px;
+    color: var(--blue);
+}
+
+.btn.btn-blue-border:hover i { color: var(--white); }
+.post-grid__status { font-size: 12px; }
+.post-grid__status i { margin-right: 5px; }
