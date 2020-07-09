@@ -5,7 +5,7 @@ import Icon1 from '../../assets/images/wechat.svg';
 import Icon2 from '../../assets/images/images.png';
 import Icon3 from '../../assets/images/wechat.svg';
 import Icon4 from '../../assets/images/douyin.png';
-import Icon5 from '../../assets/images/图3.png';
+import Icon5 from '../../assets/images/y3.png';
 import Icon6 from '../../assets/images/sina-weibo.svg';
 
 // Slider

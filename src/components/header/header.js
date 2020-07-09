@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../../assets/images/Zauba-logo.png';
+import logo from '../../assets/images/logo.png';
 import './header.css';
 import { Navbar, Dropdown } from 'react-bootstrap';
 import firebase from '../../config/fire';
@@ -42,7 +42,7 @@ class header extends Component {
             <header>
                 <Navbar expand="lg">
                     {/* Logo */}
-                    <Navbar.Brand href="/dashboard"><img src={logo} alt="Logo" width="120" /></Navbar.Brand>
+                    <Navbar.Brand href="/dashboard"><img src={logo} alt="Logo" width="60" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">

@@ -3,7 +3,7 @@ import firebase from '../../config/fire';
 import './login.css';
 import { Container } from 'react-bootstrap';
 import Alert from 'react-bootstrap/Alert';
-import Logo from '../../assets/images/Zauba-logo.png';
+import Logo from '../../assets/images/logo.png';
 import Spinner from '../../components/spinner/spinner';
 import User from '../../assets/images/user.png';
 
@@ -89,7 +89,7 @@ export class login extends Component {
                 <Container>
                     {/* Login Page Header */}
                     <div className="login-header">
-                        <img src={Logo} alt="common Lauder" width="280" />
+                        <img src={Logo} alt="common Lauder" width="150" />
                         <div className="login-head">Login</div>
                     </div>
 
