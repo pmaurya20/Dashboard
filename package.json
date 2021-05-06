@@ -9,7 +9,7 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "firebase": "^7.15.5",
-    "highcharts": "^8.1.2",
+    "highcharts": "^9.0.0",
     "highcharts-react-official": "^3.0.0",
     "jquery": "^3.5.1",
     "moment": "^2.27.0",
